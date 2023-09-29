@@ -8,7 +8,7 @@ public class Main {
 
         resultMap.put("髙橋",90);
         resultMap.put("中村",80);
-        resultMap.put("佐藤",1);
+        resultMap.put("佐藤",0);
 
         String maxKey=null;
         int maxValue=0;
