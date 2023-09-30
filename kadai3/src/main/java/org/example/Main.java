@@ -19,7 +19,7 @@ public class Main {
             }
         }
         String minKey=null;
-        int minValue=999999999;
+        int minValue=maxValue;
         for (Map.Entry<String, Integer> entry : resultMap.entrySet()) {
             if (entry.getValue() < minValue) {
                 minKey = entry.getKey();
