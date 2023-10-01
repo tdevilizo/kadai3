@@ -18,6 +18,7 @@ public class Main {
                 maxValue = entry.getValue();
             }
         }
+
         String minKey=null;
         int minValue=maxValue;
         for (Map.Entry<String, Integer> entry : resultMap.entrySet()) {
@@ -35,7 +36,6 @@ public class Main {
                     System.out.println("エラーがおきました。");
                 }
             }
-
           }
 
 
